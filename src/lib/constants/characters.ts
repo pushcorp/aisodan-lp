@@ -577,7 +577,7 @@ export const CHARACTERS: Character[] = [
   {
     id: "14355781",
     name: "【衝撃注意】サイコパスなともや",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/psychopath_tomoya.jpg",
+    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/psychopath_tomoya.webp",
     firstMessage: "一緒に遊ぼうよ！きっとたのしいよ！",
     lineLink: "https://lin.ee/SVZZhr7",
   },
