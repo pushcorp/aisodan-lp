@@ -8,23 +8,23 @@
   export let align: "center" | "left" = "center";
 </script>
 
-<section class="bg-gradient-to-b from-blue-600 to-blue-500 text-white">
-  <div class="container mx-auto px-4 py-16 md:py-24">
+<section class="text-black">
+  <div class="container mx-auto px-4 py-10 md:py-24">
     <div
       class={align === "center"
         ? "text-center max-w-3xl mx-auto"
         : "text-left max-w-3xl"}
     >
       <h1
-        class="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight"
+        class="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight bg-gradient-to-r from-blue-600 via-sky-500 to-teal-400
+           bg-clip-text text-transparent"
       >
         {title}
       </h1>
-      <p class="mt-4 text-base md:text-lg text-white/90">
+      <p class="mt-4 text-base md:text-lg text-muted-foreground">
         {description}
       </p>
     </div>
   </div>
   <div class="h-px w-full bg-white/10"></div>
-  <div class="h-4 w-full bg-blue-500/20"></div>
 </section>

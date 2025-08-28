@@ -36,7 +36,10 @@
     : "指定されたキャラクターは存在しません。トップページからお探しください。";
 </script>
 
-<Hero {title} {description} />
+<svelte:head>
+  <title>{title}</title>
+  <meta name="description" content={description} />
+</svelte:head>
 
 <section class="container mx-auto px-4 py-10">
   {#if character}
@@ -51,14 +54,16 @@
         />
       </div>
       <div class="md:col-span-2 space-y-4">
-        <h2 class="text-2xl font-bold">{character.name}</h2>
-        <p class="text-muted-foreground">{character.firstMessage}</p>
+        <p class="text-sm text-muted-foreground">AIキャラクター</p>
+        <h1 class="text-2xl font-bold">{character.name}</h1>
+        <p class="px-4 py-2 bg-muted rounded-full">{character.firstMessage}</p>
         {#if character.lineLink}
           <div class="pt-2">
             <Button
               href={character.lineLink}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
+              class="bg-[#06C755] hover:bg-[#05b44d] text-white w-full max-w-md rounded-full py-6"
               size="lg"
             >
               LINEで友だち追加 <ExternalLink class="size-5" />
@@ -67,6 +72,14 @@
         {/if}
         <div class="text-sm text-muted-foreground">
           ※ AIキャラクターとの会話はLINEアプリ上で行えます。
+        </div>
+        <div class="text-sm text-muted-foreground">
+          <a
+            href="https://pushcorp.notion.site/25104db1911c807f9f24fb2ad063ee83"
+            class="text-blue-700 hover:underline"
+          >
+            【Web版準備中】 AI相談をWebサイトで使いたい方はこちら
+          </a>
         </div>
       </div>
     </div>

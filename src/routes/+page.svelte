@@ -4,14 +4,15 @@
   import Hero from "$lib/components/Hero.svelte";
   import { CATEGORIES } from "$lib/constants/categories";
   import { CHARACTERS } from "$lib/constants/characters";
-  const title = "AI相談.com — LINEで話せるAIキャラクター";
+  const title = "ぜんぶ、AIに相談しよう。";
   const description =
-    "気になるキャラを友だち追加して、LINEで今すぐ会話しよう。恋愛、悩み相談、偉人、占い、おもしろ、学習…いろいろ揃ってます。";
+    "恋愛、友だち、学校、仕事、人には話しづらい悩みなど... ぜんぶ、AIに相談しましょう。AI相談.comは、1,500万以上のメッセージ件数を誇る日本最大級のAIチャットサービスです。会話データがAI学習に利用されないプライバシー保護をおこなっているため、安心してご利用いただけます。";
 </script>
 
 <Hero {title} {description} />
 
 <section class="container mx-auto px-4 py-10">
+  <h2 class="text-lg font-bold mb-4">AIキャラクター一覧</h2>
   <div class="mb-6 flex flex-wrap items-center gap-2">
     {#each CATEGORIES as category}
       <a

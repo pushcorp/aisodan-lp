@@ -6,10 +6,10 @@
   export let character: Character;
 </script>
 
-<div
-  class="group rounded-xl border bg-card text-card-foreground shadow-sm overflow-hidden transition hover:shadow-md"
->
-  <a class="block" href={`/characters/${character.id}`}>
+<a class="block" href={`/characters/${character.id}`}>
+  <div
+    class="group rounded-xl border bg-card text-card-foreground shadow-sm overflow-hidden transition hover:shadow-lg"
+  >
     <img
       src={character.iconImageUrl}
       alt={character.name}
@@ -17,28 +17,14 @@
       loading="lazy"
       decoding="async"
     />
-  </a>
-  <div class="p-4 space-y-3">
-    <a href={`/characters/${character.id}`} class="block">
+
+    <div class="p-4 space-y-3">
       <h3 class="font-bold text-lg leading-snug line-clamp-2">
         {character.name}
       </h3>
-    </a>
-    <p class="text-sm text-muted-foreground line-clamp-2">
-      {character.firstMessage}
-    </p>
-    {#if character.lineLink}
-      <div>
-        <Button
-          href={character.lineLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          variant="secondary"
-          size="sm"
-        >
-          友だち追加 <ExternalLink class="size-4" />
-        </Button>
-      </div>
-    {/if}
+      <p class="px-4 py-2 text-sm bg-muted rounded-full">
+        {character.firstMessage}
+      </p>
+    </div>
   </div>
-</div>
+</a>
