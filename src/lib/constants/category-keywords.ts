@@ -1,7 +1,7 @@
 // カテゴリーごとのキーワード。name/firstMessage に含まれる語でフィルタする
 export const CATEGORY_KEYWORDS: Record<string, string[]> = {
-  love: ["恋", "恋愛", "片思い", "彼女", "彼氏", "ツンデレ", "ヤンデレ", "胸キュン", "好き"],
-  consultation: [
+  love: ["恋愛"],
+  life: [
     "相談",
     "アドバイザー",
     "カウンセラー",
@@ -12,7 +12,7 @@ export const CATEGORY_KEYWORDS: Record<string, string[]> = {
     "家庭",
     "心理",
   ],
-  historical: [
+  "world-history": [
     "紫式部",
     "渋沢",
     "卑弥呼",
@@ -24,19 +24,9 @@ export const CATEGORY_KEYWORDS: Record<string, string[]> = {
     "アインシュタイン",
     "クレオパトラ",
   ],
-  "fortune-telling": ["占い", "タロット", "おみくじ", "水晶", "霊視", "透視"],
-  entertainment: [
-    "芸人",
-    "Youtuber",
-    "ラッパー",
-    "ギャング",
-    "ゲーム",
-    "アニメ",
-    "中二病",
-    "BL",
-    "ギャル",
-  ],
-  learning: [
+  fortune: ["占い", "タロット", "おみくじ", "水晶", "霊視", "透視"],
+  anime: ["芸人", "Youtuber", "ラッパー", "ギャング", "ゲーム", "アニメ", "中二病", "BL", "ギャル"],
+  study: [
     "学習",
     "英会話",
     "勉強",
@@ -47,4 +37,23 @@ export const CATEGORY_KEYWORDS: Record<string, string[]> = {
     "ダイエット",
     "ミニマリスト",
   ],
+  math: ["数学", "算数"],
+  mental: ["心の悩み", "うつ病", "発達障害", "ADHD", "カウンセラー", "心理"],
+  "graduation-path": ["進路", "受験", "志望", "大学", "高校"],
+  diet: ["ダイエット", "痩せる", "体重"],
+  work: ["仕事", "職場", "キャリア"],
+  jobs: ["転職"],
+  omikuji: ["おみくじ"],
+  money: ["お金", "貯金", "投資", "節約"],
+  health: ["健康", "体調", "栄養"],
+  "english-talk": ["英会話", "英語", "English"],
+  kobun: ["古文", "和歌", "文法"],
+  shukatsu: ["就職", "就活", "面接", "履歴書"],
+  "raising-children": ["子育て", "育児"],
+  family: ["家族", "家庭"],
+  travel: ["旅行", "海外", "バックパッカー", "観光"],
+  divorce: ["離婚"],
+  futoko: ["不登校", "学校"],
+  sozoku: ["相続", "遺産", "遺言", "法務"],
+  marriage: ["結婚", "婚活", "夫婦"],
 };
