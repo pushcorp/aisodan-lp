@@ -112,14 +112,17 @@
       async
       src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
     ></script>
-    <script>
+    <script data-ga-id={GA_MEASUREMENT_ID}>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       } // GAサーバーサイド配信向け（CSR無効時も実行される）
       gtag("js", new Date());
       // 自動 page_view を無効化し、手動送信で統一（重複防止）参考：https://developers.google.com/analytics/devguides/collection/ga4/views?hl=ja&client_type=gtag#manual_pageviews
-      gtag("config", `${GA_MEASUREMENT_ID}`, { send_page_view: false });
+      var mid =
+        document.currentScript &&
+        document.currentScript.getAttribute("data-ga-id");
+      gtag("config", mid, { send_page_view: false });
       // 手動で page_view を送信（各ページのフルリロード時に送られる）
       gtag("event", "page_view", {
         page_title: document.title,
