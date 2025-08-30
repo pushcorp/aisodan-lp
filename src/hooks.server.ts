@@ -38,5 +38,11 @@ export const handle: Handle = async ({ event, resolve }) => {
     throw redirect(308, targetUrl);
   }
 
+  // 日本語コメント: "/character/:id" を "/characters/:id" へ恒久リダイレクト（クエリは維持）
+  if (pathname.startsWith("/character/")) {
+    const rest = pathname.slice("/character".length); // 先頭の "/character" を取り除く（先頭は必ず "/"）
+    throw redirect(308, `/characters${rest}${event.url.search}`);
+  }
+
   return resolve(event);
 };
