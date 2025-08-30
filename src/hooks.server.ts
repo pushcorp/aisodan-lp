@@ -1,3 +1,4 @@
+import { CATEGORIES } from "$lib/constants/categories";
 import { type Handle, redirect } from "@sveltejs/kit";
 
 // 日本語コメント: 指定パスを恒久リダイレクト（308）するためのマッピング
@@ -11,7 +12,16 @@ const REDIRECTS: Record<string, string> = {
   "/others/line-register": "/line-howto.html",
 };
 
-// 日本語コメント: 末尾スラッシュの有無を吸収（ただしルート "/" はそのまま）
+// カテゴリの旧パス -> 新パスの恒久リダイレクトテーブル
+const CATEGORY_REDIRECTS: Record<string, string> = CATEGORIES.reduce<Record<string, string>>(
+  (acc, category) => {
+    acc[category.oldPath] = category.path;
+    return acc;
+  },
+  {},
+);
+
+// 末尾スラッシュの有無を吸収（ただしルート "/" はそのまま）
 function normalizePath(pathname: string): string {
   if (pathname.length > 1 && pathname.endsWith("/")) {
     return pathname.slice(0, -1);
@@ -21,9 +31,10 @@ function normalizePath(pathname: string): string {
 
 export const handle: Handle = async ({ event, resolve }) => {
   const pathname = normalizePath(event.url.pathname);
-  const targetUrl = REDIRECTS[pathname];
+  // まずカテゴリの旧パスを判定し、なければ静的マッピングを確認
+  const targetUrl = CATEGORY_REDIRECTS[pathname] ?? REDIRECTS[pathname];
   if (targetUrl) {
-    // 日本語コメント: 308 は恒久リダイレクト（メソッド・ボディを維持）
+    // 308 は恒久リダイレクト（メソッド・ボディを維持）
     throw redirect(308, targetUrl);
   }
 
