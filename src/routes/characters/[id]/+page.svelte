@@ -1,6 +1,7 @@
 <script lang="ts">
   import CharacterGrid from "$lib/components/CharacterGrid.svelte";
   import { Button } from "$lib/components/ui/button/index.js";
+  import { SITE_NAME } from "$lib/constants";
   import type { Character } from "$lib/constants/characters";
   import { ExternalLink } from "@lucide/svelte";
   import type { PageProps } from "./$types";
@@ -18,10 +19,12 @@
     (data.popular as Character[]) ?? [],
   );
 
-  const title: string = $derived(
-    character ? `${character.name}` : "キャラクターが見つかりません",
+  const pageTitle: string = $derived(
+    character
+      ? `${character.name} - ${SITE_NAME}`
+      : `キャラクターが見つかりません - ${SITE_NAME}`,
   );
-  const description: string = $derived(
+  const pageDescription: string = $derived(
     character
       ? character.firstMessage
       : "指定されたキャラクターは存在しません。トップページからお探しください。",
@@ -29,8 +32,8 @@
 </script>
 
 <svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={description} />
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription} />
 </svelte:head>
 
 <section class="container mx-auto px-4 py-10">
