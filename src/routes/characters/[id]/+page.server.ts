@@ -1,4 +1,5 @@
-import { CHARACTERS, type Character } from "$lib/constants/characters";
+import { CHARACTERS, type Character, POPULAR_CHARACTER_IDS } from "$lib/constants/characters";
+import { getPopularCharacters } from "$lib/utils/characters";
 import { error } from "@sveltejs/kit";
 import type { PageServerLoad } from "./$types";
 
@@ -20,10 +21,12 @@ export const load: PageServerLoad = async ({ params }) => {
   const id = params.id;
   const character = CHARACTERS.find((c) => c.id === id);
   const recommended = pickRecommendations(id, 8);
+  const popular = getPopularCharacters(CHARACTERS, POPULAR_CHARACTER_IDS);
 
   return {
     id,
     character,
     recommended,
+    popular,
   };
 };

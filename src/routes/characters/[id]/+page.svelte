@@ -11,7 +11,9 @@
   const character: Character | undefined = data.character as
     | Character
     | undefined;
-  const recommended: Character[] = (data.recommended as Character[]) ?? [];
+  const recommendedCharacters: Character[] =
+    (data.recommended as Character[]) ?? [];
+  const popularCharacters: Character[] = (data.popular as Character[]) ?? [];
 
   const title = character
     ? `${character.name}`
@@ -70,8 +72,13 @@
     </div>
 
     <div class="mt-12">
+      <h3 class="text-xl font-semibold mb-4">人気のAIキャラクター</h3>
+      <CharacterGrid characters={popularCharacters} />
+    </div>
+
+    <div class="mt-12">
       <h3 class="text-xl font-semibold mb-4">ほかのおすすめキャラクター</h3>
-      <CharacterGrid characters={recommended} />
+      <CharacterGrid characters={recommendedCharacters} />
     </div>
   {:else}
     <div class="space-y-6">

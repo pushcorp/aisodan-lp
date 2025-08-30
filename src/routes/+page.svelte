@@ -4,12 +4,20 @@
   import Hero from "$lib/components/Hero.svelte";
   import { CATEGORIES } from "$lib/constants/categories";
   import { CHARACTERS } from "$lib/constants/characters";
+  import type { PageProps } from "./$types";
+  let { data }: PageProps = $props();
   const title = "ぜんぶ、AIに相談しよう。";
   const description =
     "恋愛、友だち、学校、仕事、人には話しづらい悩みなど... ぜんぶ、AIに相談しましょう。AI相談.comは、1,500万以上のメッセージ件数を誇る日本最大級のAIチャットサービスです。会話データがAI学習に利用されないプライバシー保護をおこなっているため、安心してご利用いただけます。";
+  const popularCharacters = (data as any)?.popular ?? [];
 </script>
 
 <Hero {title} {description} />
+
+<section class="container mx-auto px-4 py-10">
+  <h2 class="text-lg font-bold mb-4">人気のAIキャラクター</h2>
+  <CharacterGrid characters={popularCharacters} />
+</section>
 
 <section class="container mx-auto px-4 py-10">
   <h2 class="text-lg font-bold mb-4">AIキャラクター一覧</h2>
@@ -24,7 +32,4 @@
     {/each}
   </div>
   <CharacterGrid characters={CHARACTERS} />
-  <div class="mt-12 text-center text-sm text-muted-foreground">
-    ※ このサイトはランディングページです。会話はLINEアプリ上で行えます。
-  </div>
 </section>

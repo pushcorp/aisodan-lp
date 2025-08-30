@@ -680,3 +680,5 @@ export const CHARACTERS: Character[] = [
     lineLink: "https://lin.ee/9ffQ6oS",
   },
 ];
+
+export const POPULAR_CHARACTER_IDS = ["69029932", "79098059", "61238903", "80974678", "31357284"];
