@@ -8,19 +8,24 @@
   let { data }: PageProps = $props();
 
   // 対象キャラとおすすめ（サーバーから提供）
-  const character: Character | undefined = data.character as
-    | Character
-    | undefined;
-  const recommendedCharacters: Character[] =
-    (data.recommended as Character[]) ?? [];
-  const popularCharacters: Character[] = (data.popular as Character[]) ?? [];
+  const character: Character | undefined = $derived(
+    data.character as Character | undefined,
+  );
+  const recommendedCharacters: Character[] = $derived(
+    (data.recommended as Character[]) ?? [],
+  );
+  const popularCharacters: Character[] = $derived(
+    (data.popular as Character[]) ?? [],
+  );
 
-  const title = character
-    ? `${character.name}`
-    : "キャラクターが見つかりません";
-  const description = character
-    ? character.firstMessage
-    : "指定されたキャラクターは存在しません。トップページからお探しください。";
+  const title: string = $derived(
+    character ? `${character.name}` : "キャラクターが見つかりません",
+  );
+  const description: string = $derived(
+    character
+      ? character.firstMessage
+      : "指定されたキャラクターは存在しません。トップページからお探しください。",
+  );
 </script>
 
 <svelte:head>
