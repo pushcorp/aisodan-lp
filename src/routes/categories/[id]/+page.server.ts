@@ -45,7 +45,7 @@ export const load: PageServerLoad = async ({ params }) => {
   const characters = [...matched, ...randomOthers];
 
   const heroTitle = `${categoryName}についてAIに相談`;
-  const pageTitle = `${categoryName}についてAIに相談 - ${SITE_NAME}`;
+  const pageTitle = `${categoryName}についてAIに無料で相談 - ${SITE_NAME}`;
   const pageDescription = `${categoryName}についての相談が得意なAIキャラクターに相談してみましょう。`;
 
   return {
