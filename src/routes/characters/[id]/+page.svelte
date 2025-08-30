@@ -1,32 +1,17 @@
 <script lang="ts">
   import CharacterGrid from "$lib/components/CharacterGrid.svelte";
-  import Hero from "$lib/components/Hero.svelte";
   import { Button } from "$lib/components/ui/button/index.js";
-  import { CHARACTERS, type Character } from "$lib/constants/characters";
+  import type { Character } from "$lib/constants/characters";
   import { ExternalLink } from "@lucide/svelte";
   import type { PageProps } from "./$types";
 
   let { data }: PageProps = $props();
 
-  // ページパラメータ
-  const characterId: string = data.id;
-
-  // 対象キャラ
-  const character = CHARACTERS.find((c) => c.id === characterId);
-
-  function pickRecommendations(currentId: string, limit = 8): Character[] {
-    const others = CHARACTERS.filter((c) => c.id !== currentId);
-    // シャッフルして上位を返す
-    for (let i = others.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [others[i], others[j]] = [others[j], others[i]];
-    }
-    return others.slice(0, limit);
-  }
-
-  const recommended: Character[] = character
-    ? pickRecommendations(character.id, 8)
-    : [];
+  // 対象キャラとおすすめ（サーバーから提供）
+  const character: Character | undefined = data.character as
+    | Character
+    | undefined;
+  const recommended: Character[] = (data.recommended as Character[]) ?? [];
 
   const title = character
     ? `${character.name}`
