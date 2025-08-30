@@ -55,22 +55,20 @@
               href={character.lineLink}
               target="_blank"
               rel="nofollow noopener noreferrer"
-              class="bg-[#06C755] hover:bg-[#05b44d] text-white w-full max-w-lg rounded-full py-6 shadow-md"
+              class="bg-[#06C755] hover:bg-[#05b44d] text-white text-md w-full max-w-lg rounded-full py-6 shadow-md"
               size="lg"
             >
               LINEで友だち追加 <ExternalLink class="size-5" />
             </Button>
           </div>
         {/if}
-        <div class="text-sm text-muted-foreground">
-          ※ AIキャラクターとの会話はLINEアプリ上で行えます。
-        </div>
-        <div class="text-sm text-muted-foreground">
+        <div class="text-sm text-muted-foreground text-center">
+          <p class="mb-2">※ AIキャラクターとの会話はLINEアプリ上で行えます。</p>
           <a
             href="https://pushcorp.notion.site/25104db1911c807f9f24fb2ad063ee83"
             class="text-blue-700 hover:underline"
           >
-            【Web版準備中】 AI相談をWebサイトで使いたい方はこちら
+            AI相談をWebサイトで使いたい方はこちら【Web版準備中】
           </a>
         </div>
       </div>
