@@ -40,7 +40,7 @@
         <img
           src={character.iconImageUrl}
           alt={character.name}
-          class="w-full rounded-xl border object-cover"
+          class="w-full max-w-96 max-h-96 mx-auto rounded-xl border object-cover"
           loading="eager"
           decoding="async"
         />
@@ -55,7 +55,7 @@
               href={character.lineLink}
               target="_blank"
               rel="nofollow noopener noreferrer"
-              class="bg-[#06C755] hover:bg-[#05b44d] text-white w-full max-w-md rounded-full py-6"
+              class="bg-[#06C755] hover:bg-[#05b44d] text-white w-full max-w-lg rounded-full py-6 shadow-md"
               size="lg"
             >
               LINEで友だち追加 <ExternalLink class="size-5" />
