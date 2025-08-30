@@ -1,7 +1,7 @@
 import { SITE_NAME } from "$lib/constants";
 import { CATEGORIES } from "$lib/constants/categories";
 import { CATEGORY_KEYWORDS } from "$lib/constants/category-keywords";
-import { CHARACTERS } from "$lib/constants/characters";
+import { CHARACTERS, POPULAR_CHARACTER_IDS } from "$lib/constants/characters";
 import { error } from "@sveltejs/kit";
 import type { PageServerLoad } from "./$types";
 
@@ -39,10 +39,13 @@ export const load: PageServerLoad = async ({ params }) => {
 
   // カテゴリーに一致するキャラクターは最大限表示（定義順のまま）
   const matched = CHARACTERS.filter(isMatched);
+  // 人気キャラクターIDに一致するものを先頭に移動
+  const popularMatched = matched.filter((c) => POPULAR_CHARACTER_IDS.includes(c.id));
+  const otherMatched = matched.filter((c) => !POPULAR_CHARACTER_IDS.includes(c.id));
   // それ以外はランダムで最大30件だけ追加
   const others = CHARACTERS.filter((c) => !isMatched(c));
   const randomOthers = shuffleArray(others).slice(0, MAX_EXTRA_CHARACTERS);
-  const characters = [...matched, ...randomOthers];
+  const characters = [...popularMatched, ...otherMatched, ...randomOthers];
 
   const heroTitle = `${categoryName}についてAIに相談`;
   const pageTitle = `${categoryName}についてAIに無料で相談 - ${SITE_NAME}`;
