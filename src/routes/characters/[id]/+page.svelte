@@ -50,7 +50,7 @@
         <h1 class="text-2xl font-bold">{character.name}</h1>
         <p class="px-4 py-2 bg-muted rounded-full">{character.firstMessage}</p>
         {#if character.lineLink}
-          <div class="pt-2">
+          <div class="pt-2 text-center">
             <Button
               href={character.lineLink}
               target="_blank"
