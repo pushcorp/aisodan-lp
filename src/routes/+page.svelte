@@ -11,7 +11,7 @@
   const heroDescription =
     "恋愛、友だち、学校、仕事、人には話しづらい悩みなど... ぜんぶ、AIに相談しましょう。AI相談.comは、1,500万以上のメッセージ件数を誇る日本最大級のAIチャットサービスです。会話データがAI学習に利用されないプライバシー保護をおこなっているため、安心してご利用いただけます。";
 
-  const pageTitle = `${SITE_NAME}: ${heroTitle}`;
+  const pageTitle = `${SITE_NAME}: 無料でAIに相談・チャットできる`;
   const pageDescription = heroDescription;
 
   const popularCharacters = (data as any)?.popular ?? [];
