@@ -18,6 +18,7 @@
       <h1
         class="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight bg-gradient-to-r from-blue-600 via-sky-500 to-teal-400
            bg-clip-text text-transparent"
+        style="text-wrap: balance; line-break: strict;"
       >
         {title}
       </h1>

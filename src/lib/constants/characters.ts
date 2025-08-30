@@ -513,7 +513,7 @@ export const CHARACTERS: Character[] = [
   },
   {
     id: "57482230",
-    name: "健康アドバイザーの山田先生",
+    name: "健康アドバイザーの山田さん",
     iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/health_advisor_yamada.jpg",
     firstMessage: "健康にいい生活習慣、心がけていますか？",
     lineLink: "https://line.me/R/ti/p/@326ygbnz",
