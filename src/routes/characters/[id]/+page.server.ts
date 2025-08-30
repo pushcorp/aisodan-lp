@@ -1,3 +1,4 @@
+import { SITE_NAME } from "$lib/constants";
 import { CHARACTERS, type Character, POPULAR_CHARACTER_IDS } from "$lib/constants/characters";
 import { getPopularCharacters } from "$lib/utils/characters";
 import { error } from "@sveltejs/kit";
@@ -23,10 +24,20 @@ export const load: PageServerLoad = async ({ params }) => {
   const recommended = pickRecommendations(id, 8);
   const popular = getPopularCharacters(CHARACTERS, POPULAR_CHARACTER_IDS);
 
+  // SEO 用のタイトルとディスクリプションはサーバーで生成して返す
+  const pageTitle = character
+    ? `${character.name} - ${SITE_NAME}`
+    : `キャラクターが見つかりません - ${SITE_NAME}`;
+  const pageDescription = character
+    ? character.firstMessage
+    : "指定されたキャラクターは存在しません。トップページからお探しください。";
+
   return {
     id,
     character,
     recommended,
     popular,
+    pageTitle,
+    pageDescription,
   };
 };

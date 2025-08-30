@@ -1,32 +1,17 @@
 <script lang="ts">
   import CharacterGrid from "$lib/components/CharacterGrid.svelte";
   import Hero from "$lib/components/Hero.svelte";
-  import { SITE_NAME, SITE_URL } from "$lib/constants";
-  import { CATEGORIES } from "$lib/constants/categories";
-  import { CATEGORY_KEYWORDS } from "$lib/constants/category-keywords";
-  import { CHARACTERS, type Character } from "$lib/constants/characters";
+  import type { Character } from "$lib/constants/characters";
   import type { PageProps } from "./$types";
 
   let { data }: PageProps = $props();
-  const categoryId: string = data.id;
-
-  // カテゴリの表示名
-  const category = CATEGORIES.find((c) => c.path.endsWith(`/${categoryId}`));
-  const categoryName = category ? category.name : "カテゴリー";
-
-  const keywords = CATEGORY_KEYWORDS[categoryId] ?? [];
-  function isMatched(character: Character): boolean {
-    if (keywords.length === 0) return true;
-    const hay = `${character.name} ${character.firstMessage}`;
-    return keywords.some((kw) => hay.includes(kw));
-  }
-
-  const filtered = CHARACTERS.filter(isMatched);
-
-  const heroTitle = `${categoryName}についてAIに相談`;
-
-  const pageTitle = `${categoryName}についてAIに相談 - ${SITE_NAME}`;
-  const pageDescription = `${categoryName}についての相談が得意なAIキャラクターに相談してみましょう。`;
+  const categoryName: string = $derived(data.categoryName as string);
+  const pageTitle: string = $derived(data.pageTitle as string);
+  const pageDescription: string = $derived(data.pageDescription as string);
+  const heroTitle: string = $derived(data.heroTitle as string);
+  const characters: Character[] = $derived(
+    (data.characters as Character[]) ?? [],
+  );
 </script>
 
 <svelte:head>
@@ -46,5 +31,5 @@
     >
   </div>
 
-  <CharacterGrid characters={filtered} />
+  <CharacterGrid {characters} />
 </section>
