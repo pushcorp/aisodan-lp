@@ -10,4 +10,4 @@
 <https://aisodan.com/others/line-cancel>
 <https://aisodan.com/others/line-register>
 - [x] characters/[id] ページのランダムキャラクターのレンダリングが読み込み時と読み込み後の2回行われ、さらに画像と名前が一致していない問題を修正する。SSRやhydration周りのエラー。
-- [ ] characters/[id] ランダムキャラクターの上に人気キャラクターを同様UIで並べる。
+- [x] characters/[id] ランダムキャラクターの上に人気キャラクターを同様UIで並べる。
