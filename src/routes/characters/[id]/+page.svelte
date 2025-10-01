@@ -19,6 +19,8 @@
   );
   const pageTitle: string = $derived(data.pageTitle as string);
   const pageDescription: string = $derived(data.pageDescription as string);
+  const newId: string | undefined = $derived(data.new_id as string | undefined);
+  const chatCharacterId: string | undefined = $derived(newId ?? character?.id);
 </script>
 
 <svelte:head>
@@ -42,28 +44,36 @@
         <p class="text-sm text-muted-foreground">AIキャラクター</p>
         <h1 class="text-2xl font-bold">{character.name}</h1>
         <p class="px-4 py-2 bg-muted rounded-full">{character.firstMessage}</p>
+        <div class="pt-2 text-center">
+          <Button
+            href={chatCharacterId
+              ? `https://aiv.co.jp/aiapp/chats/character/${chatCharacterId}`
+              : undefined}
+            target="_blank"
+            class="bg-blue-500 text-white text-md w-full max-w-lg rounded-full py-6 shadow-md"
+            size="lg"
+          >
+            チャットで今すぐ相談する
+          </Button>
+        </div>
+
         {#if character.lineLink}
           <div class="pt-2 text-center">
-            <Button
+            <p class="text-sm text-muted-foreground">
+              このキャラクターはLINEでも提供しています。
+              <br />
+              （ただし完全別サービスとなり、有料プランも別となります。）
+            </p>
+            <a
               href={character.lineLink}
               target="_blank"
               rel="nofollow noopener noreferrer"
-              class="bg-[#06C755] hover:bg-[#05b44d] text-white text-md w-full max-w-lg rounded-full py-6 shadow-md"
-              size="lg"
+              class="text-blue-500 hover:underline"
             >
-              LINEで友だち追加 <ExternalLink class="size-5" />
-            </Button>
+              LINE版はこちら
+            </a>
           </div>
         {/if}
-        <div class="text-sm text-muted-foreground text-center">
-          <p class="mb-2">※ AIキャラクターとの会話はLINEアプリ上で行えます。</p>
-          <a
-            href="https://pushcorp.notion.site/25104db1911c807f9f24fb2ad063ee83"
-            class="text-blue-700 hover:underline"
-          >
-            AI相談をWebサイトで使いたい方はこちら【Web版準備中】
-          </a>
-        </div>
       </div>
     </div>
 

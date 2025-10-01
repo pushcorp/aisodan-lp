@@ -1,5 +1,10 @@
 import { SITE_NAME } from "$lib/constants";
-import { CHARACTERS, type Character, POPULAR_CHARACTER_IDS } from "$lib/constants/characters";
+import {
+  CHARACTERS,
+  type Character,
+  POPULAR_CHARACTERS_NEW_ID_MAP,
+  POPULAR_CHARACTER_IDS,
+} from "$lib/constants/characters";
 import { getPopularCharacters } from "$lib/utils/characters";
 import { error } from "@sveltejs/kit";
 import type { PageServerLoad } from "./$types";
@@ -19,9 +24,31 @@ export const load: PageServerLoad = async ({ params }) => {
     error(404, "Not found");
   }
 
-  const id = params.id;
-  const character = CHARACTERS.find((c) => c.id === id);
-  const recommended = pickRecommendations(id, 8);
+  const requestedId = params.id;
+  let resolvedId = requestedId;
+
+  let character = CHARACTERS.find((c) => c.id === resolvedId);
+
+  if (!character) {
+    const entry = Object.entries(POPULAR_CHARACTERS_NEW_ID_MAP).find(
+      ([, newId]) => newId === requestedId,
+    );
+    if (entry) {
+      resolvedId = entry[0];
+      character = CHARACTERS.find((c) => c.id === resolvedId);
+    }
+  }
+
+  if (!character) {
+    error(404, "Not found");
+  }
+
+  const newId =
+    resolvedId in POPULAR_CHARACTERS_NEW_ID_MAP
+      ? POPULAR_CHARACTERS_NEW_ID_MAP[resolvedId as keyof typeof POPULAR_CHARACTERS_NEW_ID_MAP]
+      : undefined;
+
+  const recommended = pickRecommendations(resolvedId, 8);
   const popular = getPopularCharacters(CHARACTERS, POPULAR_CHARACTER_IDS);
 
   // SEO 用のタイトルとディスクリプションはサーバーで生成して返す
@@ -33,7 +60,8 @@ export const load: PageServerLoad = async ({ params }) => {
     : "指定されたキャラクターは存在しません。トップページからお探しください。";
 
   return {
-    id,
+    id: requestedId,
+    new_id: newId,
     character,
     recommended,
     popular,
