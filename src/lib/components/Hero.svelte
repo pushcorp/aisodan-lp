@@ -1,11 +1,10 @@
 <script lang="ts">
-  // ヒーローセクションの共通コンポーネント
-  // - title: 大きなキャッチコピー
-  // - description: 小さな説明文
-  // - align: テキストの配置
+  import { Button } from "$lib/components/ui/button/index.js";
+
   export let title: string;
   export let description: string;
   export let align: "center" | "left" = "center";
+  const AICHATAPP_URL = "https://aiv.co.jp/aiapp/chats";
 </script>
 
 <section class="text-black">
@@ -25,6 +24,15 @@
       <p class="mt-4 text-base md:text-lg text-muted-foreground">
         {description}
       </p>
+      <div class="mt-4">
+        <Button
+          href={AICHATAPP_URL}
+          class="bg-orange-600 text-white hover:bg-orange-700 rounded-full shadow-md"
+          size="lg"
+        >
+          今すぐチャットで相談する（無料）
+        </Button>
+      </div>
     </div>
   </div>
   <div class="h-px w-full bg-white/10"></div>
