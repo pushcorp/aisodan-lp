@@ -4,7 +4,6 @@
   import Hero from "$lib/components/Hero.svelte";
   import { SITE_NAME } from "$lib/constants";
   import { CATEGORIES } from "$lib/constants/categories";
-  import { CHARACTERS } from "$lib/constants/characters";
   import type { PageProps } from "./$types";
   let { data }: PageProps = $props();
   const heroTitle = "ぜんぶ、AIに相談しよう。";
@@ -14,7 +13,7 @@
   const pageTitle = `${SITE_NAME}: 無料でAIに相談・チャットできる`;
   const pageDescription = heroDescription;
 
-  const popularCharacters = (data as any)?.popular ?? [];
+  const characters = (data as any)?.characters ?? [];
 </script>
 
 <svelte:head>
@@ -23,11 +22,6 @@
 </svelte:head>
 
 <Hero title={heroTitle} description={heroDescription} />
-
-<section class="container mx-auto px-4 py-10">
-  <h2 class="text-lg font-bold mb-4">人気のAIキャラクター</h2>
-  <CharacterGrid characters={popularCharacters} />
-</section>
 
 <section class="container mx-auto px-4 py-10">
   <h2 class="text-lg font-bold mb-4">AIキャラクター一覧</h2>
@@ -41,5 +35,5 @@
       </a>
     {/each}
   </div>
-  <CharacterGrid characters={CHARACTERS} />
+  <CharacterGrid {characters} />
 </section>
