@@ -56,24 +56,6 @@
             チャットで今すぐ相談する
           </Button>
         </div>
-
-        {#if character.lineLink}
-          <div class="pt-2 text-center">
-            <p class="text-sm text-muted-foreground">
-              このキャラクターはLINEでも提供しています。
-              <br />
-              （ただし完全別サービスとなり、有料プランも別となります。）
-            </p>
-            <a
-              href={character.lineLink}
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              class="text-blue-500 hover:underline"
-            >
-              LINE版はこちら
-            </a>
-          </div>
-        {/if}
       </div>
     </div>
 
