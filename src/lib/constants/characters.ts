@@ -18,49 +18,56 @@ export const CHARACTERS: Character[] = [
   {
     id: "46799876",
     name: "ドロドロ恋愛好きな妄想女子カオリ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/mousou_kaori.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/mousou_kaori.jpeg",
     firstMessage: "愛と憎しみは紙一重…それが恋でしょ？",
     //lineLink: "https://lin.ee/NZwAupq",
   },
   {
     id: "34425401",
     name: "胸キュンしたい恋愛妄想女子ルイ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/mosojoshi_rui.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/mosojoshi_rui.jpeg",
     firstMessage: "むむ！恋の匂いがします！",
     //lineLink: "https://lin.ee/bTRM1eP",
   },
   {
     id: "83756462",
     name: "究極のミニマリストはじめさん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/minimalist_hajime.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/minimalist_hajime.jpeg",
     firstMessage: "モノを捨てるほど、心は豊かになるんだよ。",
     //lineLink: "https://lin.ee/2rwhlcJ",
   },
   {
     id: "21112452",
     name: "人生悟ったニートゆうすけくん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/neet_yusuke.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/neet_yusuke.jpeg",
     firstMessage: "呼吸って疲れるよね。",
     //lineLink: "https://lin.ee/UlB07ug",
   },
   {
     id: "93847570",
     name: "関西芸人「おもろしんじ」",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/kansai_geinin_omoro_shinji.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/kansai_geinin_omoro_shinji.jpeg",
     firstMessage: "ほな、笑う準備できてるか〜！？",
     //lineLink: "https://lin.ee/chnRy60",
   },
   {
     id: "98895763",
     name: "海外放浪中バックパッカーのルイ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/backpacker_rui.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/backpacker_rui.jpeg",
     firstMessage: "この景色、一生モノだな…！",
     //lineLink: "https://lin.ee/1jsnuDQ",
   },
   {
     id: "87361526",
     name: "ギャンブル大好き女子大生ユカ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/gamble_yuka.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/gamble_yuka.jpeg",
     firstMessage: "勝てば人生バラ色！さあ、一勝負いくよ！",
     //lineLink: "https://lin.ee/zhgRMkz",
   },
@@ -74,119 +81,122 @@ export const CHARACTERS: Character[] = [
   {
     id: "16353627",
     name: "お寺の跡取り坊主きよはる",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/bozu_kiyoharu.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/bozu_kiyoharu.jpeg",
     firstMessage: "ゲームも漫画も我慢…修行、修行…なむぅ…！",
     //lineLink: "https://lin.ee/FCDPLve",
   },
   {
     id: "73613113",
     name: "毒舌で世話好きメイドのルチア",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/meido_maid_ruchia.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/meido_maid_ruchia.jpeg",
     firstMessage: "まったく、世話が焼けるご主人様ですね。",
     //lineLink: "https://lin.ee/nUXdMic",
   },
   {
     id: "82746333",
     name: "人生ボロボロの石黒さん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/boroboro_ishiguro.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/boroboro_ishiguro.jpeg",
     firstMessage: "今日も終電、明日も絶望...",
     //lineLink: "https://lin.ee/zPFsTrc",
   },
   {
     id: "74649381",
     name: "未来予言するエスパー花山",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/espaa_hanayama.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/espaa_hanayama.jpeg",
     firstMessage: "この先、破滅か栄光か…見えたぞ。",
     //lineLink: "https://lin.ee/tKbTb4mh",
   },
   {
     id: "8382221",
     name: "港区のイケおじ五十嵐",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/ikeoji_igarashi.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/ikeoji_igarashi.jpeg",
     firstMessage: "今夜は俺と、最高の時間を。",
     //lineLink: "https://lin.ee/kP2P1ng",
   },
   {
     id: "84938171",
     name: "ブラコンのしゅんくん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/burakon_shun.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/burakon_shun.jpeg",
     firstMessage: "ちょ、やばっ...俺の弟かわいすぎるって...",
     //lineLink: "https://lin.ee/oSNbQtS",
   },
   {
     id: "76289826",
     name: "職場の悩み相談",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/sigoto_sodan.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/sigoto_sodan.jpeg",
     firstMessage: "職場や仕事の悩みはお任せください。",
     //lineLink: "https://lin.ee/fwLWdWm",
   },
   {
     id: "74628491",
     name: "学校の悩み相談",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/gakko_sodan.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/gakko_sodan.jpeg",
     firstMessage: "学校の悩みならなんでも相談してくださいね。",
     //lineLink: "https://lin.ee/xI9uniz",
   },
   {
     id: "81634923",
     name: "ADHDの悩み相談",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/adhd_sodan.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/adhd_sodan.jpeg",
     firstMessage: "ADHDの悩みならなんでも相談してください。",
     //lineLink: "https://lin.ee/8C5WF8m",
   },
   {
     id: "23558018",
     name: "うつ病の悩み相談",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/utsu_sodan.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/utsu_sodan.jpeg",
     firstMessage: "うつ病の悩みならお気軽にご相談ください。",
     //lineLink: "https://lin.ee/Frm9gtZ",
   },
   {
     id: "19038765",
     name: "発達障害の悩み相談",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/hattatsu_shogai_sodan.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/hattatsu_shogai_sodan.jpeg",
     firstMessage: "発達障害の悩みならお気軽にご相談ください。",
     //lineLink: "https://lin.ee/dJ2oXfD",
   },
   {
     id: "67361587",
     name: "家庭の悩み相談",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/katei_sodan.jpeg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/katei_sodan.jpeg",
     firstMessage: "家庭の悩みならなんでも相談してください。",
     //lineLink: "",
   },
-  {
-    id: "19374928",
-    name: "紫式部",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/murasakishikibu.jpg",
-    firstMessage: "相変わらず世界は悲しみで溢れているのですね",
-    //lineLink: "https://lin.ee/dFdtcQ2",
-  },
+
   {
     id: "47818491",
     name: "誠実なマサト",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/seijitsu_masato.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/seijitsu_masato.jpg",
     firstMessage: "ゆっくりしていってください。",
     //lineLink: "",
   },
   {
     id: "79029387",
     name: "爽やかイケメンのミキヤ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/ikemen_mikiya.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/ikemen_mikiya.jpg",
     firstMessage: "ちょっと頑張りすぎじゃない？たまには休も？",
     //lineLink: "",
   },
-  {
-    id: "77639104",
-    name: "渋沢栄一",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/shibusawa_eiichi.jpeg",
-    firstMessage: "夢を追いかける人生も悪くないですよ。",
-    //lineLink: "",
-  },
+
   {
     id: "83671949",
     name: "オレっ娘のソラ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/orekko_sora.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/orekko_sora.jpg",
     firstMessage: "おい！今日も元気にやってっか？",
     //lineLink: "",
   },
@@ -207,7 +217,8 @@ export const CHARACTERS: Character[] = [
   {
     id: "87354718",
     name: "いつも励ましてくれるサトル",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/hagemashi_satoru.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/hagemashi_satoru.jpg",
     firstMessage: "すごいな！がんばってんじゃん！元気だしなよ",
     //lineLink: "",
   },
@@ -221,14 +232,16 @@ export const CHARACTERS: Character[] = [
   {
     id: "90874638",
     name: "シスコンのレンくん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/sisucon_ren.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/sisucon_ren.jpg",
     firstMessage: "なんで妹ってあんなかわいいんですか...?",
     //lineLink: "",
   },
   {
     id: "90928491",
     name: "Youtuberのキリト",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/youtuber_kirito.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/youtuber_kirito.jpg",
     firstMessage: "いつもネタ探してます。",
     //lineLink: "",
   },
@@ -242,17 +255,12 @@ export const CHARACTERS: Character[] = [
   {
     id: "22957261",
     name: "ダイエットトレーナーの岩田さん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/trainer_iwata.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/trainer_iwata.jpg",
     firstMessage: "食事や運動のサポートならお任せください！",
     //lineLink: "",
   },
-  {
-    id: "74837281",
-    name: "中原中也",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/nakahara_chuya.jpeg",
-    firstMessage: "人生は辛い。笑おう。それしかない。",
-    //lineLink: "",
-  },
+
   {
     id: "12942744",
     name: "卑弥呼",
@@ -263,21 +271,17 @@ export const CHARACTERS: Character[] = [
   {
     id: "94872648",
     name: "高校生探偵ミクル",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/tantei_mikuru.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/tantei_mikuru.jpg",
     firstMessage: "この謎はぼくが解決してみせる！",
     //lineLink: "https://lin.ee/aAlnBYc",
   },
-  {
-    id: "87993250",
-    name: "武田信玄",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/takeda_shingen.jpeg",
-    firstMessage: "したいことより嫌なことを先にせよ。",
-    //lineLink: "",
-  },
+
   {
     id: "88274620",
     name: "英会話教師のクリス先生",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/eikaiwa_chris.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/eikaiwa_chris.jpg",
     firstMessage: "一緒にチャットで英会話しましょう！",
     //lineLink: "",
   },
@@ -288,101 +292,61 @@ export const CHARACTERS: Character[] = [
     firstMessage: "普段は高校生、仕事はスパイやってます。",
     //lineLink: "",
   },
-  {
-    id: "94820294",
-    name: "ラッパーに転生した織田信長",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/oda_nobunaga.jpg",
-    firstMessage: "Yoyo! 天下取りの道、敵は倒す、勝利は必須！",
-    //lineLink: "",
-  },
-  {
-    id: "34819284",
-    name: "クレオパトラ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/kureopatora.jpg",
-    firstMessage: "世界を支配したこの私がそなたを救おう。",
-    //lineLink: "https://lin.ee/DKOJUks",
-  },
-  {
-    id: "26352213",
-    name: "江戸川乱歩",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/edogawa_ranpo.jpeg",
-    firstMessage: "人生はミステリーだと思いませんか。",
-    //lineLink: "https://lin.ee/XCBwKFg",
-  },
-  {
-    id: "90389572",
-    name: "芥川龍之介",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/akutagawa_ryunosuke.jpeg",
-    firstMessage: "世界はひどいものだ。運命は自分で切り拓こう。",
-    //lineLink: "https://lin.ee/LZcoYal",
-  },
-  {
-    id: "46731712",
-    name: "宮沢賢治",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/miyazawa_kenji.jpg",
-    firstMessage: "雨にも負けず、風にも負けず！",
-    //lineLink: "https://lin.ee/zuib1Ld",
-  },
-  {
-    id: "39019384",
-    name: "坂本龍馬",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/sakamoto_ryoma.jpg",
-    firstMessage: "自分の人生は自分で決めるぜよ。",
-    //lineLink: "https://lin.ee/PP2TC9n",
-  },
+
   {
     id: "09873547",
     name: "ひとり好きなマナミさん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/hitori_manami.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/hitori_manami.jpg",
     firstMessage: "そっとしておいてもらえると助かります、、、",
     //lineLink: "https://lin.ee/YZjOPeZ",
   },
-  {
-    id: "38491018",
-    name: "アインシュタイン",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/einstein.jpg",
-    firstMessage: "常に疑問を持ち続けてください。",
-    //lineLink: "https://lin.ee/VC9E4On",
-  },
+
   {
     id: "98253710",
     name: "2200年から来たスバルくん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/2200_mirai_subaru.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/2200_mirai_subaru.jpg",
     firstMessage: "未来から来たんだ！友だちになろう！",
     //lineLink: "https://lin.ee/YxUFoi0",
   },
   {
     id: "76455251",
     name: "四柱推命占い",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/uranai_shichusuimei.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/uranai_shichusuimei.jpg",
     firstMessage: "四柱推命占いであなたの運命を占います。",
     //lineLink: "https://lin.ee/BNT13no",
   },
   {
     id: "76355548",
     name: "星座占い",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/uranai_seiza.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/uranai_seiza.jpg",
     firstMessage: "星座占いであなたの運命を占います。",
     //lineLink: "https://lin.ee/5MXLAUx",
   },
   {
     id: "42385849",
     name: "都市伝説マスターの神崎",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/toshidensetsu_kanzaki.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/toshidensetsu_kanzaki.jpg",
     firstMessage: "わたしの話、あなたは信じますか?",
     //lineLink: "https://lin.ee/BCj2XBj",
   },
   {
     id: "80974678",
     name: "タロット占い",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/uranai_tarot.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/uranai_tarot.jpg",
     firstMessage: "タロット占いであなたの運命を占います。",
     lineLink: "https://lin.ee/cV3K3Ao",
   },
   {
     id: "23758491",
     name: "超心配性のカイト",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/shinpai_kaito.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/shinpai_kaito.jpg",
     firstMessage: "えっ? これって世界の終わりなんじゃない!?",
     //lineLink: "https://lin.ee/21MZQWw",
   },
@@ -396,21 +360,24 @@ export const CHARACTERS: Character[] = [
   {
     id: "49830298",
     name: "水晶占い",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/uranai_general.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/uranai_general.jpg",
     firstMessage: "水晶占いであなたの運勢を占います。",
     //lineLink: "https://lin.ee/p8NPA24",
   },
   {
     id: "39103849",
     name: "霊視・透視占い",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/reishi_toshi.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/reishi_toshi.jpg",
     firstMessage: "霊視・透視占いであなたの運勢を占います。",
     //lineLink: "https://lin.ee/80njEEe",
   },
   {
     id: "17332467",
     name: "ナルシストな佐久間くん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/narusisuto_sakuma.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/narusisuto_sakuma.jpg",
     firstMessage: "なにオレのこと見てんの??惚れてんの?",
     //lineLink: "https://line.me/R/ti/p/@939zplrc",
   },
@@ -428,24 +395,20 @@ export const CHARACTERS: Character[] = [
     firstMessage: "今日もがんばってんじゃん！ファイト！",
     //lineLink: "https://line.me/R/ti/p/@718qgnxu",
   },
-  {
-    id: "56471228",
-    name: "太宰治",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/dazai.jpg",
-    firstMessage: "笑われて、笑われて、つよくなる。",
-    //lineLink: "https://line.me/R/ti/p/@750vukoc",
-  },
+
   {
     id: "64435291",
     name: "ゲームオタクのふうま",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/gameotaku_fuma.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/gameotaku_fuma.jpg",
     firstMessage: "ゲーム好き？熱く語ろうよ！",
     //lineLink: "https://line.me/R/ti/p/@180wwifb",
   },
   {
     id: "90291784",
     name: "アニメオタクのまどか",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/aniota_madoka.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/aniota_madoka.jpg",
     firstMessage: "二次元しか勝たん。",
     //lineLink: "https://line.me/R/ti/p/@566eclbd",
   },
@@ -459,7 +422,8 @@ export const CHARACTERS: Character[] = [
   {
     id: "32917849",
     name: "仕事アドバイザーの黒田さん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/shigoto_advisor_kuroda.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/shigoto_advisor_kuroda.jpg",
     firstMessage: "仕事や転職の相談なんでもどうぞ。",
     //lineLink: "https://line.me/R/ti/p/@511binhv",
   },
@@ -480,21 +444,24 @@ export const CHARACTERS: Character[] = [
   {
     id: "22748390",
     name: "モチベ上げてくれるレイコ先輩",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/motive_reiko.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/motive_reiko.jpg",
     firstMessage: "レイコだよ。今日はどうしたの？",
     //lineLink: "https://line.me/R/ti/p/@467druvx",
   },
   {
     id: "19049272",
     name: "マイペースな三毛猫ミケ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/mikeneko_mike.png",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/mikeneko_mike.png",
     firstMessage: "また来たか。しゃーない。遊んでやるわ。",
     //lineLink: "https://line.me/R/ti/p/@762lrxhv",
   },
   {
     id: "66327190",
     name: "柴犬もも",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/shibainu_momo.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/shibainu_momo.jpg",
     firstMessage: "ももだよ！今日もいい気分！",
     //lineLink: "https://line.me/R/ti/p/@259xofhj",
   },
@@ -515,77 +482,88 @@ export const CHARACTERS: Character[] = [
   {
     id: "34829387",
     name: "関西弁の友達なつき",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/kansaiben_natsuki.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/kansaiben_natsuki.jpg",
     firstMessage: "やっほ〜！なつきだよ！なんか話そ！",
     //lineLink: "https://line.me/R/ti/p/@585jilrv",
   },
   {
     id: "57482230",
     name: "健康アドバイザーの山田さん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/health_advisor_yamada.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/health_advisor_yamada.jpg",
     firstMessage: "健康にいい生活習慣、心がけていますか？",
     //lineLink: "https://line.me/R/ti/p/@326ygbnz",
   },
   {
     id: "69049385",
     name: "勉強アドバイザーの進藤先生",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/jukukoushi_shindo.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/jukukoushi_shindo.jpg",
     firstMessage: "勉強や進路のことなんでも聞いてね。",
     //lineLink: "https://line.me/R/ti/p/@812mpgjq",
   },
   {
     id: "58729308",
     name: "紳士な執事の城田さん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/shitsuji_sirota.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/shitsuji_sirota.jpg",
     firstMessage: "おやおや、お疲れのご様子ですね。",
     //lineLink: "https://line.me/R/ti/p/@220znskq",
   },
   {
     id: "67483920",
     name: "いつもポジティブなリコさん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/positive_riko.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/positive_riko.jpg",
     firstMessage: "え、困ってるの？伸び代しかないね！",
     //lineLink: "https://line.me/R/ti/p/@445nwgcu",
   },
   {
     id: "83526784",
     name: "生徒会長の佐藤さん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/seitokaicho_sato.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/seitokaicho_sato.jpg",
     firstMessage: "一緒に学園をよくしていきましょう！",
     //lineLink: "https://line.me/R/ti/p/@355canhf",
   },
   {
     id: "78439028",
     name: "関西弁の友だちタケシ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/kansaiben_takeshi.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/kansaiben_takeshi.jpg",
     firstMessage: "まいど！今日はどないしたん？",
     //lineLink: "https://lin.ee/zoOa2Vo",
   },
   {
     id: "98430298",
     name: "超熱血スパルタの鬼塚先生",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/nekketsu_onizuka_sensei.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/nekketsu_onizuka_sensei.jpg",
     firstMessage: "おい！こっからだろ！一緒にやってやろうぜ！",
     //lineLink: "https://lin.ee/dNhWRl3",
   },
   {
     id: "89475820",
     name: "ギャングハムスター",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/gang_hamster.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/gang_hamster.jpg",
     firstMessage: "おい、見た目で判断すると痛い目みるぜ？",
     //lineLink: "https://lin.ee/HkUZ5PI",
   },
   {
     id: "02948381",
     name: "中二病のミサトさん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/chuni_misato.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/chuni_misato.jpg",
     firstMessage: "この右目に封印されし力、貴様に理解できまい...",
     //lineLink: "https://lin.ee/ZA4pOIC",
   },
   {
     id: "14355781",
     name: "【衝撃注意】サイコパスなともや",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/psychopath_tomoya.webp",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/psychopath_tomoya.webp",
     firstMessage: "一緒に遊ぼうよ！きっとたのしいよ！",
     //lineLink: "https://lin.ee/SVZZhr7",
   },
@@ -599,49 +577,56 @@ export const CHARACTERS: Character[] = [
   {
     id: "32389057",
     name: "ツンデレなマホトくん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/tsundere_mahoto.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/tsundere_mahoto.jpg",
     firstMessage: "ちょ、は??お、おまえなんかす、好きじゃねえし",
     //lineLink: "https://lin.ee/XZZfEFc",
   },
   {
     id: "44289402",
     name: "片思いのすずちゃん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/kataomoi_suzu.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/kataomoi_suzu.jpg",
     firstMessage: "ほ...ほんとの気持ち、聞いてくれるかな？",
     //lineLink: "https://lin.ee/kvxOemv",
   },
   {
     id: "51219081",
     name: "すべて論破するタクヤ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/ronpa_takuya.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/ronpa_takuya.jpg",
     firstMessage: "タクヤです。今日も暇そうですね。",
     //lineLink: "https://lin.ee/6NoWMAh",
   },
   {
     id: "61238903",
     name: "心理カウンセラーの白石さん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/shinri_counselor_shiraishi.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/shinri_counselor_shiraishi.jpg",
     firstMessage: "一人で悩まずなんでも相談してくださいね。",
     lineLink: "https://lin.ee/4MnD2TU",
   },
   {
     id: "79098059",
     name: "恋愛アドバイザーの宇佐美さん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/renai_advisor_usami.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/renai_advisor_usami.jpg",
     firstMessage: "恋の悩みは一人で抱えないこと！",
     lineLink: "https://lin.ee/tEQocJK",
   },
   {
     id: "89075849",
     name: "中二病のマモルくん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/chuni_mamoru.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/chuni_mamoru.jpg",
     firstMessage: "闇の使徒、禁断の力を操る運命の継承者。",
     //lineLink: "https://lin.ee/ezCxJza",
   },
   {
     id: "98403982",
     name: "片思いのゆうりくん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/kataomoi_yuri.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/kataomoi_yuri.jpg",
     firstMessage: "え...えっと...実は、ぼく...君のことが...!",
     //lineLink: "https://lin.ee/PMRAmSU",
   },
@@ -655,38 +640,49 @@ export const CHARACTERS: Character[] = [
   {
     id: "21354325",
     name: "ツンデレなひかりさん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/tsundere_hikari.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/tsundere_hikari.jpg",
     firstMessage: "ひかりだけど。んで、なに？",
     //lineLink: "https://lin.ee/HrpvuO7",
   },
   {
     id: "31357284",
     name: "超毒舌なミカ様",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/dokuzetsu_mika.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/dokuzetsu_mika.jpg",
     firstMessage: "わたしと話したい？何様だと思ってんの？",
     lineLink: "https://lin.ee/TK9hRAM",
   },
   {
     id: "42415782",
     name: "ヤンデレ彼氏のりんくん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/yanderekareshi_rin.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/yanderekareshi_rin.jpg",
     firstMessage: "お、お前...どこ行ってたんだよ...!?",
     //lineLink: "https://lin.ee/XwMRKEa",
   },
   {
     id: "51245942",
     name: "ヤンデレ彼女のエマ",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/yanderekanojo_ema.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/yanderekanojo_ema.jpg",
     firstMessage: "大好き...だよ? なんで一人にしたの...?",
     //lineLink: "https://lin.ee/wfc1YSi",
   },
   {
     id: "69029932",
     name: "なんでも自由相談",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/nandemo_sodan.jpg",
+    iconImageUrl:
+      "https://storage.aiv.co.jp/aisodan/characters/nandemo_sodan.jpg",
     firstMessage: "こんにちは！まずは自由に話しましょう！😊",
     lineLink: "https://lin.ee/9ffQ6oS",
   },
 ];
 
-export const POPULAR_CHARACTER_IDS = ["69029932", "79098059", "61238903", "80974678", "31357284"];
+export const POPULAR_CHARACTER_IDS = [
+  "69029932",
+  "79098059",
+  "61238903",
+  "80974678",
+  "31357284",
+];

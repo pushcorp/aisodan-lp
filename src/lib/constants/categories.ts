@@ -15,7 +15,6 @@ export const CATEGORIES = [
   { oldPath: "/eikaiwa", path: "/categories/english-talk", name: "英会話" },
   { oldPath: "/kobun", path: "/categories/kobun", name: "古文" },
   { oldPath: "/shukatsu", path: "/categories/shukatsu", name: "就職" },
-  { oldPath: "/sekaishi", path: "/categories/world-history", name: "世界史" },
   { oldPath: "/ikuji", path: "/categories/raising-children", name: "子育て" },
   { oldPath: "/family", path: "/categories/family", name: "家族" },
   { oldPath: "/travel", path: "/categories/travel", name: "旅行" },
