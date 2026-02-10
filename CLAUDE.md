@@ -1,0 +1,36 @@
+# Essential Coding Guide
+
+Follow these guidelines to ensure the project's success in collaboration with the user.
+
+## Basics
+
+* Focus solely on the user's requests. So do NOT perform tasks that were not requested. Do NOT add additional improvements that the user didn't request.
+* Make minimal, targeted changes to avoid unnecessary complexity or scope creep.
+* Write maintainable, clear, and well-structured code with consistent naming conventions.
+* Use Japanese for comments and log messages to ensure accessibility for Japanese developers. But not for constants or variables name.
+* Preserve the intent of existing comments when editing code.
+* You can ask the user to clarify plans or tasks whenever needed.
+* You may criticize the users's thoughts. You must be honest to ensure the project's success in collaboration with the user.
+* Confirm implementation plan with the user BEFORE making any code changes.
+* Think in English, respond in the user's language.
+* If you stuck in too many errors in a row like linter errors, just give up and tell the user what is happening.
+* Make tasks into minimum and detailed chunks and do them one by one.
+* Do not use magic number. Name it as constants or something.
+
+## JavaScript/TypeScript Coding Guide
+
+* Always use traditional function declarations by default. you can use arrow functions  only when they provide clear benefits (e.g., lexical `this` binding).
+  For example:
+
+  ```ts
+  function myFunc() {
+    console.log("hello");
+  }
+  ```
+
+## Project Info
+
+### Basics
+
+* This project is aisodan.com: website for AI Chatbots for casual consumer users can talk with AI(LLM). it has many ai characters users can talk with.
+* Using Svelte 5 (runes), SvelteKit, TypeScript, Tailwind CSS, Shadcn UI (shadcn-svelte), Lucide Icons (@lucide/svelte).
