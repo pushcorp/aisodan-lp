@@ -40,7 +40,3 @@ Follow these guidelines to ensure the project's success in collaboration with th
 
 * This project is aisodan.com: product with LINE AI Chatbots for casual consumer users can talk with AI(LLM). it has many ai characters can talk.
 * Using Svelte 5 (runes), SvelteKit, TypeScript, Tailwind CSS, Shadcn UI (shadcn-svelte), Lucide Icons (@lucide/svelte).
-
-## User's Development Environment
-
-* The user develops this project on Windows via WSL2, using Cursor (a VSCode-fork editor).
