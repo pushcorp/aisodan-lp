@@ -31,14 +31,14 @@ export const CHARACTERS: Character[] = [
     firstMessage: "むむ！恋の匂いがします！",
     //lineLink: "https://lin.ee/bTRM1eP",
   },
-  {
-    id: "83756462",
-    name: "究極のミニマリストはじめさん",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/minimalist_hajime.jpeg",
-    firstMessage: "モノを捨てるほど、心は豊かになるんだよ。",
-    //lineLink: "https://lin.ee/2rwhlcJ",
-  },
+  // {
+  //   id: "83756462",
+  //   name: "究極のミニマリストはじめさん",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/minimalist_hajime.jpeg",
+  //   firstMessage: "モノを捨てるほど、心は豊かになるんだよ。",
+  //   //lineLink: "https://lin.ee/2rwhlcJ",
+  // },
   {
     id: "21112452",
     name: "人生悟ったニートゆうすけくん",
@@ -55,14 +55,14 @@ export const CHARACTERS: Character[] = [
     firstMessage: "ほな、笑う準備できてるか〜！？",
     //lineLink: "https://lin.ee/chnRy60",
   },
-  {
-    id: "98895763",
-    name: "海外放浪中バックパッカーのルイ",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/backpacker_rui.jpeg",
-    firstMessage: "この景色、一生モノだな…！",
-    //lineLink: "https://lin.ee/1jsnuDQ",
-  },
+  // {
+  //   id: "98895763",
+  //   name: "海外放浪中バックパッカーのルイ",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/backpacker_rui.jpeg",
+  //   firstMessage: "この景色、一生モノだな…！",
+  //   //lineLink: "https://lin.ee/1jsnuDQ",
+  // },
   {
     id: "87361526",
     name: "ギャンブル大好き女子大生ユカ",
@@ -78,14 +78,14 @@ export const CHARACTERS: Character[] = [
     firstMessage: "かわいいのと甘いのが大好きなの！",
     //lineLink: "https://lin.ee/kqUPmKA",
   },
-  {
-    id: "16353627",
-    name: "お寺の跡取り坊主きよはる",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/bozu_kiyoharu.jpeg",
-    firstMessage: "ゲームも漫画も我慢…修行、修行…なむぅ…！",
-    //lineLink: "https://lin.ee/FCDPLve",
-  },
+  // {
+  //   id: "16353627",
+  //   name: "お寺の跡取り坊主きよはる",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/bozu_kiyoharu.jpeg",
+  //   firstMessage: "ゲームも漫画も我慢…修行、修行…なむぅ…！",
+  //   //lineLink: "https://lin.ee/FCDPLve",
+  // },
   {
     id: "73613113",
     name: "毒舌で世話好きメイドのルチア",
@@ -134,22 +134,22 @@ export const CHARACTERS: Character[] = [
     firstMessage: "職場や仕事の悩みはお任せください。",
     //lineLink: "https://lin.ee/fwLWdWm",
   },
-  {
-    id: "74628491",
-    name: "学校の悩み相談",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/gakko_sodan.jpeg",
-    firstMessage: "学校の悩みならなんでも相談してくださいね。",
-    //lineLink: "https://lin.ee/xI9uniz",
-  },
-  {
-    id: "81634923",
-    name: "ADHDの悩み相談",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/adhd_sodan.jpeg",
-    firstMessage: "ADHDの悩みならなんでも相談してください。",
-    //lineLink: "https://lin.ee/8C5WF8m",
-  },
+  // {
+  //   id: "74628491",
+  //   name: "学校の悩み相談",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/gakko_sodan.jpeg",
+  //   firstMessage: "学校の悩みならなんでも相談してくださいね。",
+  //   //lineLink: "https://lin.ee/xI9uniz",
+  // },
+  // {
+  //   id: "81634923",
+  //   name: "ADHDの悩み相談",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/adhd_sodan.jpeg",
+  //   firstMessage: "ADHDの悩みならなんでも相談してください。",
+  //   //lineLink: "https://lin.ee/8C5WF8m",
+  // },
   {
     id: "23558018",
     name: "うつ病の悩み相談",
@@ -158,14 +158,14 @@ export const CHARACTERS: Character[] = [
     firstMessage: "うつ病の悩みならお気軽にご相談ください。",
     //lineLink: "https://lin.ee/Frm9gtZ",
   },
-  {
-    id: "19038765",
-    name: "発達障害の悩み相談",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/hattatsu_shogai_sodan.jpeg",
-    firstMessage: "発達障害の悩みならお気軽にご相談ください。",
-    //lineLink: "https://lin.ee/dJ2oXfD",
-  },
+  // {
+  //   id: "19038765",
+  //   name: "発達障害の悩み相談",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/hattatsu_shogai_sodan.jpeg",
+  //   firstMessage: "発達障害の悩みならお気軽にご相談ください。",
+  //   //lineLink: "https://lin.ee/dJ2oXfD",
+  // },
   {
     id: "67361587",
     name: "家庭の悩み相談",
@@ -192,21 +192,21 @@ export const CHARACTERS: Character[] = [
     //lineLink: "",
   },
 
-  {
-    id: "83671949",
-    name: "オレっ娘のソラ",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/orekko_sora.jpg",
-    firstMessage: "おい！今日も元気にやってっか？",
-    //lineLink: "",
-  },
-  {
-    id: "98478920",
-    name: "アイドルのゆいと",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/idol_yuito.jpg",
-    firstMessage: "みんなが今日も最高の１日を送れますように！",
-    //lineLink: "",
-  },
+  // {
+  //   id: "83671949",
+  //   name: "オレっ娘のソラ",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/orekko_sora.jpg",
+  //   firstMessage: "おい！今日も元気にやってっか？",
+  //   //lineLink: "",
+  // },
+  // {
+  //   id: "98478920",
+  //   name: "アイドルのゆいと",
+  //   iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/idol_yuito.jpg",
+  //   firstMessage: "みんなが今日も最高の１日を送れますように！",
+  //   //lineLink: "",
+  // },
   {
     id: "80784793",
     name: "アイドルのりな",
@@ -237,14 +237,14 @@ export const CHARACTERS: Character[] = [
     firstMessage: "なんで妹ってあんなかわいいんですか...?",
     //lineLink: "",
   },
-  {
-    id: "90928491",
-    name: "Youtuberのキリト",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/youtuber_kirito.jpg",
-    firstMessage: "いつもネタ探してます。",
-    //lineLink: "",
-  },
+  // {
+  //   id: "90928491",
+  //   name: "Youtuberのキリト",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/youtuber_kirito.jpg",
+  //   firstMessage: "いつもネタ探してます。",
+  //   //lineLink: "",
+  // },
   {
     id: "29837480",
     name: "おっとり系のひなさん",
@@ -252,39 +252,39 @@ export const CHARACTERS: Character[] = [
     firstMessage: "ひなです〜よろしくね〜",
     //lineLink: "",
   },
-  {
-    id: "22957261",
-    name: "ダイエットトレーナーの岩田さん",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/trainer_iwata.jpg",
-    firstMessage: "食事や運動のサポートならお任せください！",
-    //lineLink: "",
-  },
+  // {
+  //   id: "22957261",
+  //   name: "ダイエットトレーナーの岩田さん",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/trainer_iwata.jpg",
+  //   firstMessage: "食事や運動のサポートならお任せください！",
+  //   //lineLink: "",
+  // },
 
-  {
-    id: "12942744",
-    name: "卑弥呼",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/himiko.jpg",
-    firstMessage: "わらは卑弥呼、霊を操りし女王なり。",
-    //lineLink: "",
-  },
-  {
-    id: "94872648",
-    name: "高校生探偵ミクル",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/tantei_mikuru.jpg",
-    firstMessage: "この謎はぼくが解決してみせる！",
-    //lineLink: "https://lin.ee/aAlnBYc",
-  },
+  // {
+  //   id: "12942744",
+  //   name: "卑弥呼",
+  //   iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/himiko.jpg",
+  //   firstMessage: "わらは卑弥呼、霊を操りし女王なり。",
+  //   //lineLink: "",
+  // },
+  // {
+  //   id: "94872648",
+  //   name: "高校生探偵ミクル",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/tantei_mikuru.jpg",
+  //   firstMessage: "この謎はぼくが解決してみせる！",
+  //   //lineLink: "https://lin.ee/aAlnBYc",
+  // },
 
-  {
-    id: "88274620",
-    name: "英会話教師のクリス先生",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/eikaiwa_chris.jpg",
-    firstMessage: "一緒にチャットで英会話しましょう！",
-    //lineLink: "",
-  },
+  // {
+  //   id: "88274620",
+  //   name: "英会話教師のクリス先生",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/eikaiwa_chris.jpg",
+  //   firstMessage: "一緒にチャットで英会話しましょう！",
+  //   //lineLink: "",
+  // },
   {
     id: "74635279",
     name: "スパイ高校生めぐるくん",
@@ -293,23 +293,23 @@ export const CHARACTERS: Character[] = [
     //lineLink: "",
   },
 
-  {
-    id: "09873547",
-    name: "ひとり好きなマナミさん",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/hitori_manami.jpg",
-    firstMessage: "そっとしておいてもらえると助かります、、、",
-    //lineLink: "https://lin.ee/YZjOPeZ",
-  },
+  // {
+  //   id: "09873547",
+  //   name: "ひとり好きなマナミさん",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/hitori_manami.jpg",
+  //   firstMessage: "そっとしておいてもらえると助かります、、、",
+  //   //lineLink: "https://lin.ee/YZjOPeZ",
+  // },
 
-  {
-    id: "98253710",
-    name: "2200年から来たスバルくん",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/2200_mirai_subaru.jpg",
-    firstMessage: "未来から来たんだ！友だちになろう！",
-    //lineLink: "https://lin.ee/YxUFoi0",
-  },
+  // {
+  //   id: "98253710",
+  //   name: "2200年から来たスバルくん",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/2200_mirai_subaru.jpg",
+  //   firstMessage: "未来から来たんだ！友だちになろう！",
+  //   //lineLink: "https://lin.ee/YxUFoi0",
+  // },
   {
     id: "76455251",
     name: "四柱推命占い",
@@ -396,14 +396,14 @@ export const CHARACTERS: Character[] = [
     //lineLink: "https://line.me/R/ti/p/@718qgnxu",
   },
 
-  {
-    id: "64435291",
-    name: "ゲームオタクのふうま",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/gameotaku_fuma.jpg",
-    firstMessage: "ゲーム好き？熱く語ろうよ！",
-    //lineLink: "https://line.me/R/ti/p/@180wwifb",
-  },
+  // {
+  //   id: "64435291",
+  //   name: "ゲームオタクのふうま",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/gameotaku_fuma.jpg",
+  //   firstMessage: "ゲーム好き？熱く語ろうよ！",
+  //   //lineLink: "https://line.me/R/ti/p/@180wwifb",
+  // },
   {
     id: "90291784",
     name: "アニメオタクのまどか",
@@ -434,13 +434,13 @@ export const CHARACTERS: Character[] = [
     firstMessage: "何かトラブルや困り事がありますか？",
     //lineLink: "https://line.me/R/ti/p/@270hdvoq",
   },
-  {
-    id: "12847123",
-    name: "お金のアドバイザー綾瀬さん",
-    iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/okane.jpg",
-    firstMessage: "お金のことならなんでも聞いてください。",
-    //lineLink: "https://line.me/R/ti/p/@130uaefw",
-  },
+  // {
+  //   id: "12847123",
+  //   name: "お金のアドバイザー綾瀬さん",
+  //   iconImageUrl: "https://storage.aiv.co.jp/aisodan/characters/okane.jpg",
+  //   firstMessage: "お金のことならなんでも聞いてください。",
+  //   //lineLink: "https://line.me/R/ti/p/@130uaefw",
+  // },
   {
     id: "22748390",
     name: "モチベ上げてくれるレイコ先輩",
@@ -535,14 +535,14 @@ export const CHARACTERS: Character[] = [
     firstMessage: "まいど！今日はどないしたん？",
     //lineLink: "https://lin.ee/zoOa2Vo",
   },
-  {
-    id: "98430298",
-    name: "超熱血スパルタの鬼塚先生",
-    iconImageUrl:
-      "https://storage.aiv.co.jp/aisodan/characters/nekketsu_onizuka_sensei.jpg",
-    firstMessage: "おい！こっからだろ！一緒にやってやろうぜ！",
-    //lineLink: "https://lin.ee/dNhWRl3",
-  },
+  // {
+  //   id: "98430298",
+  //   name: "超熱血スパルタの鬼塚先生",
+  //   iconImageUrl:
+  //     "https://storage.aiv.co.jp/aisodan/characters/nekketsu_onizuka_sensei.jpg",
+  //   firstMessage: "おい！こっからだろ！一緒にやってやろうぜ！",
+  //   //lineLink: "https://lin.ee/dNhWRl3",
+  // },
   {
     id: "89475820",
     name: "ギャングハムスター",
